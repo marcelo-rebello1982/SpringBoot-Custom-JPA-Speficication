@@ -56260,4 +56260,1076 @@ Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violate
 ""31-12-2021 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
 ""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Pool stats (total=3, active=0, idle=3, waiting=0)
 ""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Fill pool skipped, pool is at sufficient level.
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Pool stats (total=3, active=0, idle=3, waiting=0)
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Fill pool skipped, pool is at sufficient level.
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Pool stats (total=3, active=0, idle=3, waiting=0)
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Fill pool skipped, pool is at sufficient level.
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Pool stats (total=3, active=0, idle=3, waiting=0)
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Fill pool skipped, pool is at sufficient level.
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Pool stats (total=3, active=0, idle=3, waiting=0)
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Fill pool skipped, pool is at sufficient level.
+""31-12-2021 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - POSTGRESQL-DEMO-POOL - Shutdown initiated...
+""31-12-2021 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Before shutdown stats (total=3, active=0, idle=3, waiting=0)
+""31-12-2021 [POSTGRESQL-DEMO-POOL connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - POSTGRESQL-DEMO-POOL - Closing connection org.postgresql.jdbc.PgConnection@7af1d072: (connection evicted)
+""31-12-2021 [POSTGRESQL-DEMO-POOL connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - POSTGRESQL-DEMO-POOL - Closing connection org.postgresql.jdbc.PgConnection@72ef963a: (connection evicted)
+""31-12-2021 [POSTGRESQL-DEMO-POOL connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - POSTGRESQL-DEMO-POOL - Closing connection org.postgresql.jdbc.PgConnection@37ed0603: (connection evicted)
+""31-12-2021 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+""31-12-2021 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - POSTGRESQL-DEMO-POOL - Shutdown completed.
+""31-12-2021 [main] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+""31-12-2021 [main] DEBUG o.s.b.w.s.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd
+""31-12-2021 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""31-12-2021 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+""31-12-2021 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""31-12-2021 [main] WARN  com.zaxxer.hikari.HikariConfig - POSTGRESQL-DEMO-POOL - idleTimeout is close to or more than maxLifetime, disabling it.
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - POSTGRESQL-DEMO-POOL - configuration:
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension................................false
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit................................true
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog................................none
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql................................none
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery................................none
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout................................600000
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource................................none
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName................................none
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI................................none
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties................................{password=<masked>}
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................................"org.postgresql.Driver"
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName................................none
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties................................{}
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry................................none
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout................................0
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout................................1
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries................................false
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl................................jdbc:postgresql://192.233.136.242:5432/employee?currentSchema=sistema?serverTimeZone=UTC
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime................................0
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold................................0
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime................................3000000
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize................................5
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry................................none
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory................................none
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle................................2
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - password................................<masked>
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName................................"POSTGRESQL-DEMO-POOL"
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly................................false
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans................................false
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor................................none
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema................................none
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory................................internal
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation................................default
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - username................................"employee"
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout................................5000
+""31-12-2021 [main] INFO  com.zaxxer.hikari.HikariDataSource - POSTGRESQL-DEMO-POOL - Starting...
+""31-12-2021 [main] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Added connection org.postgresql.jdbc.PgConnection@6c8efde4
+""31-12-2021 [main] INFO  com.zaxxer.hikari.HikariDataSource - POSTGRESQL-DEMO-POOL - Start completed.
+""31-12-2021 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Pool stats (total=1, active=1, idle=0, waiting=0)
+""31-12-2021 [POSTGRESQL-DEMO-POOL connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Added connection org.postgresql.jdbc.PgConnection@36db4b82
+""31-12-2021 [POSTGRESQL-DEMO-POOL connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Added connection org.postgresql.jdbc.PgConnection@73d9c33d
+""31-12-2021 [POSTGRESQL-DEMO-POOL connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - After adding stats (total=3, active=0, idle=3, waiting=0)
+""31-12-2021 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""31-12-2021 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""31-12-2021 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""31-12-2021 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""31-12-2021 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""31-12-2021 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""31-12-2021 [main] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""31-12-2021 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""31-12-2021 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	c.t.a.ExampleApiController:
+	{POST [/api/employee/pagepost]}: exampleThree(SearchCriteria)
+	{GET [/api/employee/pageget]}: exampleTwo(ExampleSearch2)
+	{GET [/api/employee/list]}: exampleOne(ExampleSearch1)
+""31-12-2021 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+""31-12-2021 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 5 mappings in 'requestMappingHandlerMapping'
+""31-12-2021 [main] DEBUG o.s.w.s.c.a.WebMvcConfigurer - Default resource handling disabled
+""31-12-2021 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+""31-12-2021 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""31-12-2021 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+""31-12-2021 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+""31-12-2021 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+""31-12-2021 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@10cb5047
+""31-12-2021 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1ce8084a
+""31-12-2021 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""31-12-2021 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+""31-12-2021 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/employee/pageget?page=0&sort=desc&sortField=deptName&lastName&size=100&country=Brazil", parameters={masked}
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tirmizee.api.ExampleApiController#exampleTwo(ExampleSearch2)
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* select
+        generatedAlias0 
+    from
+        Employee as generatedAlias0 
+    inner join
+        generatedAlias0.department as generatedAlias1 
+    where
+        generatedAlias0.country like :param0 
+    order by
+        generatedAlias1.deptName desc */ select
+            employee0_.id as id1_1_,
+            employee0_.birth_date as birth_da2_1_,
+            employee0_.country as country3_1_,
+            employee0_.dept_no as dept_no4_1_,
+            employee0_.first_name as first_na5_1_,
+            employee0_.last_name as last_nam6_1_,
+            employee0_.mid_name as mid_name7_1_,
+            employee0_.phone as phone8_1_ 
+        from
+            sistema.employee employee0_ 
+        inner join
+            sistema.department department1_ 
+                on employee0_.dept_no=department1_.dept_no 
+        where
+            employee0_.country like ? 
+        order by
+            department1_.dept_name desc limit ?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [%Brazil%]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0048]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0030]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0014]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D005]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0046]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0038]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0034]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0025]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0036]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0013]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0023]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0028]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0045]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0041]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D008]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D004]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D002]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D007]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""31-12-2021 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.tirmizee.api.data.EmployeeDetailDTO instances]
+""31-12-2021 [http-nio-8080-exec-1] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    5212046 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    4664000 nanoseconds spent preparing 19 JDBC statements;
+    39447473 nanoseconds spent executing 19 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    57200 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""31-12-2021 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""31-12-2021 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/employee/pagepost", parameters={}
+""31-12-2021 [http-nio-8080-exec-3] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tirmizee.api.ExampleApiController#exampleThree(SearchCriteria)
+""31-12-2021 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [SearchPageable(page=0, size=10, sort=asc, sortField=id)]
+""31-12-2021 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    /* select
+        generatedAlias0 
+    from
+        Employee as generatedAlias0 
+    inner join
+        generatedAlias0.department as generatedAlias1 
+    where
+        generatedAlias0.country like :param0 
+    order by
+        generatedAlias0.id asc */ select
+            employee0_.id as id1_1_,
+            employee0_.birth_date as birth_da2_1_,
+            employee0_.country as country3_1_,
+            employee0_.dept_no as dept_no4_1_,
+            employee0_.first_name as first_na5_1_,
+            employee0_.last_name as last_nam6_1_,
+            employee0_.mid_name as mid_name7_1_,
+            employee0_.phone as phone8_1_ 
+        from
+            sistema.employee employee0_ 
+        inner join
+            sistema.department department1_ 
+                on employee0_.dept_no=department1_.dept_no 
+        where
+            employee0_.country like ? 
+        order by
+            employee0_.id asc limit ?
+""31-12-2021 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [%Brazil%]
+""31-12-2021 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0045]
+""31-12-2021 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0028]
+""31-12-2021 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D002]
+""31-12-2021 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0041]
+""31-12-2021 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0030]
+""31-12-2021 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0034]
+""31-12-2021 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D004]
+""31-12-2021 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D007]
+""31-12-2021 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    /* select
+        count(generatedAlias0) 
+    from
+        Employee as generatedAlias0 
+    inner join
+        generatedAlias0.department as generatedAlias1 
+    where
+        generatedAlias0.country like :param0 */ select
+            count(employee0_.id) as col_0_0_ 
+        from
+            sistema.employee employee0_ 
+        inner join
+            sistema.department department1_ 
+                on employee0_.dept_no=department1_.dept_no 
+        where
+            employee0_.country like ?
+""31-12-2021 [http-nio-8080-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [%Brazil%]
+""31-12-2021 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""31-12-2021 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 3 containing com.tirmizee.api.data.EmployeeDetailDTO2 instances]
+""31-12-2021 [http-nio-8080-exec-3] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    721112 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    759245 nanoseconds spent preparing 10 JDBC statements;
+    11265958 nanoseconds spent executing 10 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    8800 nanoseconds spent executing 2 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""31-12-2021 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Pool stats (total=3, active=0, idle=3, waiting=0)
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Fill pool skipped, pool is at sufficient level.
+""31-12-2021 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/employee/pagepost", parameters={}
+""31-12-2021 [http-nio-8080-exec-4] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tirmizee.api.ExampleApiController#exampleThree(SearchCriteria)
+""31-12-2021 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [SearchPageable(page=0, size=10, sort=asc, sortField=id)]
+""31-12-2021 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    /* select
+        generatedAlias0 
+    from
+        Employee as generatedAlias0 
+    inner join
+        generatedAlias0.department as generatedAlias1 
+    where
+        (
+            generatedAlias0.country like :param0 
+        ) 
+        and (
+            generatedAlias1.deptNo=:param1 
+        ) 
+    order by
+        generatedAlias0.id asc */ select
+            employee0_.id as id1_1_,
+            employee0_.birth_date as birth_da2_1_,
+            employee0_.country as country3_1_,
+            employee0_.dept_no as dept_no4_1_,
+            employee0_.first_name as first_na5_1_,
+            employee0_.last_name as last_nam6_1_,
+            employee0_.mid_name as mid_name7_1_,
+            employee0_.phone as phone8_1_ 
+        from
+            sistema.employee employee0_ 
+        inner join
+            sistema.department department1_ 
+                on employee0_.dept_no=department1_.dept_no 
+        where
+            (
+                employee0_.country like ?
+            ) 
+            and department1_.dept_no=? 
+        order by
+            employee0_.id asc limit ?
+""31-12-2021 [http-nio-8080-exec-4] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [%Brazil%]
+""31-12-2021 [http-nio-8080-exec-4] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [D0048]
+""31-12-2021 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-4] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0048]
+""31-12-2021 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""31-12-2021 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.tirmizee.api.data.EmployeeDetailDTO2 instances]
+""31-12-2021 [http-nio-8080-exec-4] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    697644 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    381822 nanoseconds spent preparing 2 JDBC statements;
+    3235467 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    4889 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""31-12-2021 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Pool stats (total=3, active=0, idle=3, waiting=0)
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Fill pool skipped, pool is at sufficient level.
+""31-12-2021 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/employee/pageget?page=0&sort=desc&sortField=deptName&lastName&size=100&country=Brazil", parameters={masked}
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tirmizee.api.ExampleApiController#exampleTwo(ExampleSearch2)
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* select
+        generatedAlias0 
+    from
+        Employee as generatedAlias0 
+    inner join
+        generatedAlias0.department as generatedAlias1 
+    where
+        generatedAlias0.country like :param0 
+    order by
+        generatedAlias1.deptName desc */ select
+            employee0_.id as id1_1_,
+            employee0_.birth_date as birth_da2_1_,
+            employee0_.country as country3_1_,
+            employee0_.dept_no as dept_no4_1_,
+            employee0_.first_name as first_na5_1_,
+            employee0_.last_name as last_nam6_1_,
+            employee0_.mid_name as mid_name7_1_,
+            employee0_.phone as phone8_1_ 
+        from
+            sistema.employee employee0_ 
+        inner join
+            sistema.department department1_ 
+                on employee0_.dept_no=department1_.dept_no 
+        where
+            employee0_.country like ? 
+        order by
+            department1_.dept_name desc limit ?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [%Brazil%]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0048]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0030]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0014]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D005]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0046]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0038]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0034]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0025]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0036]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0013]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0023]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0028]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0045]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0041]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D008]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D004]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D002]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D007]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""31-12-2021 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.tirmizee.api.data.EmployeeDetailDTO instances]
+""31-12-2021 [http-nio-8080-exec-5] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    754845 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    576889 nanoseconds spent preparing 19 JDBC statements;
+    25548846 nanoseconds spent executing 19 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    4401 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""31-12-2021 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""31-12-2021 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/employee/pagepost", parameters={}
+""31-12-2021 [http-nio-8080-exec-6] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tirmizee.api.ExampleApiController#exampleThree(SearchCriteria)
+""31-12-2021 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [SearchPageable(page=0, size=100, sort=asc, sortField=id)]
+""31-12-2021 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    /* select
+        generatedAlias0 
+    from
+        Employee as generatedAlias0 
+    inner join
+        generatedAlias0.department as generatedAlias1 
+    where
+        (
+            generatedAlias0.country like :param0 
+        ) 
+        and (
+            generatedAlias1.deptNo=:param1 
+        ) 
+    order by
+        generatedAlias0.id asc */ select
+            employee0_.id as id1_1_,
+            employee0_.birth_date as birth_da2_1_,
+            employee0_.country as country3_1_,
+            employee0_.dept_no as dept_no4_1_,
+            employee0_.first_name as first_na5_1_,
+            employee0_.last_name as last_nam6_1_,
+            employee0_.mid_name as mid_name7_1_,
+            employee0_.phone as phone8_1_ 
+        from
+            sistema.employee employee0_ 
+        inner join
+            sistema.department department1_ 
+                on employee0_.dept_no=department1_.dept_no 
+        where
+            (
+                employee0_.country like ?
+            ) 
+            and department1_.dept_no=? 
+        order by
+            employee0_.id asc limit ?
+""31-12-2021 [http-nio-8080-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [%Brazil%]
+""31-12-2021 [http-nio-8080-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [D0048]
+""31-12-2021 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0048]
+""31-12-2021 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""31-12-2021 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.tirmizee.api.data.EmployeeDetailDTO2 instances]
+""31-12-2021 [http-nio-8080-exec-6] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    577867 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    75778 nanoseconds spent preparing 2 JDBC statements;
+    3242312 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    4889 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""31-12-2021 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Pool stats (total=3, active=0, idle=3, waiting=0)
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Fill pool skipped, pool is at sufficient level.
+""31-12-2021 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/api/employee/pageget?page=0&sort=desc&sortField=deptName&lastName&deptNo=D0048&size=100&country=Brazil", parameters={masked}
+""31-12-2021 [http-nio-8080-exec-7] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tirmizee.api.ExampleApiController#exampleTwo(ExampleSearch2)
+""31-12-2021 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    /* select
+        generatedAlias0 
+    from
+        Employee as generatedAlias0 
+    inner join
+        generatedAlias0.department as generatedAlias1 
+    where
+        (
+            generatedAlias0.country like :param0 
+        ) 
+        and (
+            generatedAlias1.deptNo=:param1 
+        ) 
+    order by
+        generatedAlias1.deptName desc */ select
+            employee0_.id as id1_1_,
+            employee0_.birth_date as birth_da2_1_,
+            employee0_.country as country3_1_,
+            employee0_.dept_no as dept_no4_1_,
+            employee0_.first_name as first_na5_1_,
+            employee0_.last_name as last_nam6_1_,
+            employee0_.mid_name as mid_name7_1_,
+            employee0_.phone as phone8_1_ 
+        from
+            sistema.employee employee0_ 
+        inner join
+            sistema.department department1_ 
+                on employee0_.dept_no=department1_.dept_no 
+        where
+            (
+                employee0_.country like ?
+            ) 
+            and department1_.dept_no=? 
+        order by
+            department1_.dept_name desc limit ?
+""31-12-2021 [http-nio-8080-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [%Brazil%]
+""31-12-2021 [http-nio-8080-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [D0048]
+""31-12-2021 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0048]
+""31-12-2021 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""31-12-2021 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.tirmizee.api.data.EmployeeDetailDTO instances]
+""31-12-2021 [http-nio-8080-exec-7] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    1562000 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    401867 nanoseconds spent preparing 2 JDBC statements;
+    3154313 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    5378 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""31-12-2021 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""31-12-2021 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/api/employee/pagepost", parameters={}
+""31-12-2021 [http-nio-8080-exec-8] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tirmizee.api.ExampleApiController#exampleThree(SearchCriteria)
+""31-12-2021 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [SearchPageable(page=0, size=100, sort=asc, sortField=id)]
+""31-12-2021 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    /* select
+        generatedAlias0 
+    from
+        Employee as generatedAlias0 
+    inner join
+        generatedAlias0.department as generatedAlias1 
+    where
+        (
+            generatedAlias0.country like :param0 
+        ) 
+        and (
+            generatedAlias1.deptNo=:param1 
+        ) 
+    order by
+        generatedAlias0.id asc */ select
+            employee0_.id as id1_1_,
+            employee0_.birth_date as birth_da2_1_,
+            employee0_.country as country3_1_,
+            employee0_.dept_no as dept_no4_1_,
+            employee0_.first_name as first_na5_1_,
+            employee0_.last_name as last_nam6_1_,
+            employee0_.mid_name as mid_name7_1_,
+            employee0_.phone as phone8_1_ 
+        from
+            sistema.employee employee0_ 
+        inner join
+            sistema.department department1_ 
+                on employee0_.dept_no=department1_.dept_no 
+        where
+            (
+                employee0_.country like ?
+            ) 
+            and department1_.dept_no=? 
+        order by
+            employee0_.id asc limit ?
+""31-12-2021 [http-nio-8080-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [%Brazil%]
+""31-12-2021 [http-nio-8080-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [D0048]
+""31-12-2021 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    /* load com.tirmizee.jpa.entities.Department */ select
+        department0_.id as id1_0_0_,
+        department0_.create_date as create_d2_0_0_,
+        department0_.dept_name as dept_nam3_0_0_,
+        department0_.dept_no as dept_no4_0_0_ 
+    from
+        sistema.department department0_ 
+    where
+        department0_.dept_no=?
+""31-12-2021 [http-nio-8080-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [D0048]
+""31-12-2021 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""31-12-2021 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Page 1 of 1 containing com.tirmizee.api.data.EmployeeDetailDTO2 instances]
+""31-12-2021 [http-nio-8080-exec-8] INFO  o.h.e.i.StatisticalLoggingSessionEventListener - Session Metrics {
+    505022 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    52800 nanoseconds spent preparing 2 JDBC statements;
+    2955823 nanoseconds spent executing 2 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    4889 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+""31-12-2021 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Pool stats (total=3, active=0, idle=3, waiting=0)
+""31-12-2021 [POSTGRESQL-DEMO-POOL housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Fill pool skipped, pool is at sufficient level.
+""31-12-2021 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - POSTGRESQL-DEMO-POOL - Shutdown initiated...
+""31-12-2021 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - Before shutdown stats (total=3, active=0, idle=3, waiting=0)
+""31-12-2021 [POSTGRESQL-DEMO-POOL connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - POSTGRESQL-DEMO-POOL - Closing connection org.postgresql.jdbc.PgConnection@6c8efde4: (connection evicted)
+""31-12-2021 [POSTGRESQL-DEMO-POOL connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - POSTGRESQL-DEMO-POOL - Closing connection org.postgresql.jdbc.PgConnection@36db4b82: (connection evicted)
+""31-12-2021 [POSTGRESQL-DEMO-POOL connection closer] DEBUG com.zaxxer.hikari.pool.PoolBase - POSTGRESQL-DEMO-POOL - Closing connection org.postgresql.jdbc.PgConnection@73d9c33d: (connection evicted)
+""31-12-2021 [SpringApplicationShutdownHook] DEBUG com.zaxxer.hikari.pool.HikariPool - POSTGRESQL-DEMO-POOL - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+""31-12-2021 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - POSTGRESQL-DEMO-POOL - Shutdown completed.
 "

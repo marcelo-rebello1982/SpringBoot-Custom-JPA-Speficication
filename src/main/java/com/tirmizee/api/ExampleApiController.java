@@ -56,7 +56,7 @@ public class ExampleApiController {
 		return employeeDetails;
 	}
 	
-	@GetMapping(path = "/employee/page")
+	@GetMapping(path = "/employee/pageget")
 	public Page<EmployeeDetailDTO> exampleTwo(ExampleSearch2 searchPage){
 		
 		ExampleSpecification2 specificationTwo = new ExampleSpecification2(searchPage);
@@ -78,7 +78,7 @@ public class ExampleApiController {
 		return page.map(converter);
 	}
 	
-	@PostMapping(path = "/employee/page")
+	@PostMapping(path = "/employee/pagepost")
 	public Page<EmployeeDetailDTO2> exampleThree(@RequestBody SearchCriteria<ExampleSearch3> searchCriteria){
 		
 		ExampleSpecification3 specificationThree = new ExampleSpecification3(searchCriteria);
@@ -93,6 +93,7 @@ public class ExampleApiController {
 			target.setLname(source.getLastName());
 			target.setDepartmentNo(source.getDeptNo());
 			target.setDepartmentName(source.getDepartment().getDeptName());
+			target.setCountry(source.getCountry());
 			return target;
 		};
 		
