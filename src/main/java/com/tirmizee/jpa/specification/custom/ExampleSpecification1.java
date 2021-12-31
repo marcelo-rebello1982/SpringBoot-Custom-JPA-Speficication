@@ -58,15 +58,10 @@ public class ExampleSpecification1 extends SearchSpecification<ExampleSearch1, E
 		}
 
 		if (StringUtils.isNotEmpty(search.getDeptName())) {
-			Predicate likeDeptName = criteriaBuilder.like(department.get("deptName"),"%" + search.getDeptName() + "%" );
-			predicates.add(likeDeptName);
+			Predicate likeDeptNo = criteriaBuilder.like(department.get("deptNo"),"%" + search.getDeptNo() + "%" );
+			predicates.add(likeDeptNo);
 		}
 
-//		if (StringUtils.isNotEmpty(search.getCountry())) {
-//			Predicate likeDeptName = criteriaBuilder.like(department.get("country"),"%" + search.getCountry() + "%" );
-//			predicates.add(likeDeptName);
-//		}
-		
 		return criteriaBuilder.and(predicates.toArray(new Predicate[0]));
 	}
 

@@ -62,10 +62,6 @@ public class ExampleSpecification2 extends SearchPageSpecification<ExampleSearch
 			Predicate likeDeptName = criteriaBuilder.like(department.get("deptName"),"%" + search.getDeptName() + "%" );
 			predicates.add(likeDeptName);
 		}
-
-
-//
-		
 		return criteriaBuilder.and(predicates.toArray(new Predicate[0]));
 	}
 	
