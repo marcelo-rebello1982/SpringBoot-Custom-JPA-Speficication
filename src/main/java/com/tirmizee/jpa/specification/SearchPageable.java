@@ -2,11 +2,6 @@ package com.tirmizee.jpa.specification;
 
 import lombok.Data;
 
-
-/**
- * @author Pratya Yeekhaday
- *
- */
 @Data
 public abstract class SearchPageable {
 	 	

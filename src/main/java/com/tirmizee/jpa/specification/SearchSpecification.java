@@ -9,13 +9,6 @@ import org.springframework.data.jpa.domain.Specification;
 
 import lombok.Data;
 
-/**
- * @author Pratya Yeekhaday
- * 
- * @param <S> Object type of Search
- * @param <T> Entity
- */
-
 @Data
 public abstract class SearchSpecification<S,T> implements Specification<T> {
 

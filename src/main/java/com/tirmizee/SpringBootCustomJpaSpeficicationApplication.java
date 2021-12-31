@@ -30,8 +30,7 @@ public class SpringBootCustomJpaSpeficicationApplication implements CommandLineR
 	@Override
 	public void run(String... args) throws Exception {
 		
-//		 Mock Data
-		
+
 //		EmployeeRepository employeeRepository = context.getBean(EmployeeRepository.class);
 //		DepartmentRepository departmentRepository = context.getBean(DepartmentRepository.class);
 //

@@ -5,12 +5,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 
-/**
- * @author Pratya Yeekhaday
- * 
- * @param <S> Object type of SearchPageable
- * @param <T> Entity
- */
 public abstract class SearchPageSpecification<S extends SearchPageable, T> extends SearchSpecification<S,T> {
 
 	private static final long serialVersionUID = 1L;
