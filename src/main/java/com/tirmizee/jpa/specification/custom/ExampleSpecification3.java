@@ -54,6 +54,7 @@ public class ExampleSpecification3 extends SearchPageSpecification<SearchCriteri
 			Predicate eqDeptNo = criteriaBuilder.equal(department.get("deptNo"), searchRequest.getDeptNo());
 			predicates.add(eqDeptNo);
 		}
+
 		
 		if (StringUtils.isNotEmpty(searchRequest.getDeptName())) {
 			Predicate likeDeptName = criteriaBuilder.like(department.get("deptName"),"%" + searchRequest.getDeptName() + "%" );

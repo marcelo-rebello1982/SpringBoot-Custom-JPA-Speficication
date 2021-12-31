@@ -58,6 +58,7 @@ public class ExampleSpecification2 extends SearchPageSpecification<ExampleSearch
 			predicates.add(likeDeptName);
 		}
 
+
 		if (StringUtils.isNotEmpty(search.getDeptName())) {
 			Predicate likeDeptName = criteriaBuilder.like(department.get("deptName"),"%" + search.getDeptName() + "%" );
 			predicates.add(likeDeptName);

@@ -42,6 +42,7 @@ public class ExampleSpecification1 extends SearchSpecification<ExampleSearch1, E
 			predicates.add(likeLastName);
 		}
 
+
 		if (StringUtils.isNotEmpty(search.getCountry())) {
 			Predicate likeCountry = criteriaBuilder.like(root.get("country"), "%" + search.getCountry() + "%" );
 			predicates.add(likeCountry);
